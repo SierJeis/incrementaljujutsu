@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Kaisen Incremental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Jujutsu Kaisen Incremental</h1>
+    <h2 class="health">HP: 10/10</h2>
+    <button class="optionbtn" id="optionsbtn">Options</button>
+    <div class="main">
+        <div class="flex-parent jc-center areaselection">
+            <button class="classmargin townbtn" id="townbtn">Town</button>
+            <button class="forestbtn" id="forestbtn">Forest</button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <h2 class="classtext">Choose Class</h2>
+        <div class="flex-parent jc-center">
+            <button class="classmargin" id="sorcererbtn">Sorcerer</button>
+            <button id="cursebtn">Curse</button>
+        </div>
+    </div>
+
+    <div class="optionsmenu">
+        <p>Change Log: <br> Published on Github</p>
+    </div>
+
+    <div class="inventory">
+        <span class="class">Class: </span><p></p>
+        <span class="str">Physical Strength: 0</span> <span class="addstr" id="addstr">+</span> <p></p>
+        <span class="ce">Cursed Energy: 10/10</span> <span class="addce" id="addce">+</span> <p></p>
+        <span class="con">Constitution: 1</span> <span class="addcon" id="addcon">+</span> <p></p>
+        <span class="dmg">DMG: 0</span> <p></p>
+        <span class="xptext">XP: 0/10</span>
+    </div>
+
+    <div class="forest">
+        <p class="timer flex-parent jc-center">0/5</p>
+        <div class="student">
+            <h3>School Student</h3>
+            <div class="container2">
+                <div class="fill2"></div>
+            </div>
+            <div class="container">
+                <div class="fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <button class="returnbtn" id="returnbtn">Return</button>
+
+    <div class="attacks flex-parent jc-center">
+        <button id="punchbtn">Punch</button>
+    </div>
+
+    <div class="death">
+        <h1 class="deathtext">YOU DIED</h1>
+        <button id="trybtn">Try Again</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="update.js"></script>
+</body>
+</html>
